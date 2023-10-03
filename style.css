@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #000, #0009);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background: transparent;
+  border: 2px solid #0005;
+  border-radius: 30px;
+  width: 288px;
+  height: 504px;
+  box-shadow: 10px 15px 10px #0006;
+  background-color: #0005;
+}
+
+.cal_cont form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal_cont form input {
+    margin: 10px 10px 0px 10px;
+  height: 80px;
+  width: 80%;
+  background: transparent;
+  border: none;
+  text-align: right;
+  outline: none;
+  color: white;
+  font-size: 50px;
+  padding: 0px 10px;
+  
+}
+
+#cal_value1{
+  height: 40px;
+  color: #ffffff90;
+  font-size: 30px;
+
+}
+
+.cal_cont .cal_numpad {
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 550px;
+  width: auto;
+}
+
+.group{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+}
+
+.btn {
+  width: 3em;
+  height: 3em;
+  /* margin: 0px 7px; */
+  padding: 15px 15px;
+  border-radius: 40%;
+  box-shadow: 5px 5px 5px #0006;
+  background-color: #0006;
+  color: white;
+  /* box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.138); */
+  border: 0.5px solid #ffffff36;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover{
+    background-color: #0008;
+}
+
+.btn:active{
+    transform: translateY(-2px);
+}
+
+.btn1{
+    width: 6.2em;
+    height: 3em;
+   
+    border-radius: 10%;
+    padding: none;
+    background-color: orangered;
+}
+.btn1:hover{
+    background-color: rgb(213, 59, 3)
+}
+
+.fun_opt{
+    color: aqua;
+}
